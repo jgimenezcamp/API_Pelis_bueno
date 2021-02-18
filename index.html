@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+
+    <label>Buscar por título</label>
+    <input id="buscador" type="text" placeholder="titulo">
+    <button onclick="buscador()">Buscar</button><br><br>
+
+    <label>Detalle película por ID</label>
+    <input id="buscadorId" type="text" placeholder="Id película">
+    <button onclick="buscadorId()">Buscar</button><br><br>
+
+    <label>Mostrar videos por ID</label>
+    <input id="buscadorVideos" type="text" placeholder="Id película">
+    <button onclick="buscadorVideos()">Buscar</button>
+
+    <div id="contenedor"></div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
